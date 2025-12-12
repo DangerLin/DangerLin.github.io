@@ -16,7 +16,9 @@ timezone: America/New_York
 
 title: Danger Lin # the main title
 
-tagline: My personal site # it will display as the subtitle
+tagline: Research scientist specializing in electrochemical methodologies, 
+  organic chemistry, laboratory automation, and machine learning 
+  for sustainable materials discovery. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Welcome to my site.
@@ -102,7 +104,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: "/assets/img/Avatar/avatar_1.jpeg"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
