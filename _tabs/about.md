@@ -12,8 +12,8 @@ During my doctoral studies, I developed novel electrochemical decarboxylative cr
 
 Currently, as a postdoctoral researcher at Johns Hopkins University, I have developed an automated high-throughput electrochemical characterization platform that combines robotic systems with machine learning algorithms. This platform, published in [*Science Advances*](https://www.science.org/doi/10.1126/sciadv.adu4391), represents a paradigm shift in how energy materials research is conducted, enabling rapid discovery and optimization of battery materials and electrolytes.
 
-My research interest is in developing sustainable synthetic methods and accelerating materials discovery through intelligent automation. Feel free to [reach out to me](dangerlin100@gmail.com) if you'd like to learn more about me. Cheers!
+My research interest is in developing sustainable synthetic methods and accelerating materials discovery through intelligent automation. Feel free to reach out to me if you'd like to learn more about me. Cheers!
 
 By the way, I am the father of two cats, Oscar (exotic shorthair) and Paper (normal Munchkin). 
 
-![Oscar_Paper](/Users/dangerlin/Documents/GitHub/DangerLin.github.io/assets/img/About/Oscar_Paper.jpeg)
+![Oscar_Paper](https://github.com/DangerLin/DangerLin.github.io/blob/master/assets/img/About/Oscar_Paper.jpeg)
