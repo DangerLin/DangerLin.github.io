@@ -1,9 +1,10 @@
 ---
-Title: Baldwin's Rules: A Guide to Ring-Closing Reactions
+title: Baldwin's Rules: A Guide to Ring-Closing Reactions
 description: Struggling with determining the major product of a ring-closing reaction? Wanna know if the cyclization reaction you design for your project is feasible? You may want to learn Baldwin's rules.
-Date: 2025-12-24 20:00:00 -0500
-Categories: organic chemistry, cyclization
-Tags: baldwin's rule
+date: 2025-12-24 20:00:00 -0500
+categories: [organic chemistry, cyclization]
+tags: [baldwin's rule]
+media_subpath: https://github.com/DangerLin/DangerLin.github.io/blob/master/assets/img/Baldwin/
 ---
 
 
@@ -14,7 +15,7 @@ Tags: baldwin's rule
 
 If you're studying organic chemistry, you've probably encountered puzzling questions about cyclization reactions. Consider this: when the same molecule undergoes intramolecular ring closure, and both possible products would form five-membered rings, why does one pathway give 100% yield while the other gives essentially 0% (**Scheme 1**)?
 
-![**Scheme 1**. *Why **1-2** is the major produt?*](https://github.com/DangerLin/DangerLin.github.io/blob/master/assets/img/Baldwin/Scheme_1.png)
+![**Scheme 1**. *Why **1-2** is the major produt?*](Scheme_1.png)
 
 _**Scheme 1**. *Why **1-2** is the major produt?*_
 
@@ -38,7 +39,7 @@ The position of the breaking bond relative to the forming ring:
 - ***exo*** (exocyclic): The bond being broken lies outside the ring being formed. This ultimately produces a smaller ring.
 - ***endo*** (endocyclic): The bond being broken lies inside the ring being formed. This ultimately produces a larger ring.
 
-![exo_and_endo](https://github.com/DangerLin/DangerLin.github.io/blob/master/assets/img/Baldwin/exo_endo.png)
+![exo_and_endo](exo_endo.png)
 
 ### 3. **Hybridization of the Attacked Atom**
 
@@ -46,7 +47,7 @@ The position of the breaking bond relative to the forming ring:
 - ***trig***: The atom being attacked is sp² hybridized (trigonal)
 - ***dig***: The atom being attacked is sp hybridized (digonal)
 
-![tet_trig_dig](https://github.com/DangerLin/DangerLin.github.io/blob/master/assets/img/Baldwin/type.png)
+![tet_trig_dig](type.png)
 
 ## The Rules in Detail
 
@@ -66,7 +67,7 @@ Primarily, Baldwin's rules can be described as follows:
 
 - 5- to 6-membered rings via **endo-tet** cyclization
 
-![tet](https://github.com/DangerLin/DangerLin.github.io/blob/master/assets/img/Baldwin/tet.png)
+![tet](tet.png)
 
 ### Rule 2: Trigonal (Trig) Systems
 
@@ -81,7 +82,7 @@ Primarily, Baldwin's rules can be described as follows:
 
 - 3- to 5-membered rings via **endo-trig** cyclization
 
-![tirg](https://github.com/DangerLin/DangerLin.github.io/blob/master/assets/img/Baldwin/trig.png)
+![tirg](trig.png)
 
 ### Rule 3: Digonal (Dig) Systems
 
@@ -96,7 +97,7 @@ Primarily, Baldwin's rules can be described as follows:
 
 - 3- to 4-membered rings via **exo-dig** cyclization
 
-![dig](https://github.com/DangerLin/DangerLin.github.io/blob/master/assets/img/Baldwin/dig.png)
+![dig](dig.png)
 
 ## Summary Table
 
