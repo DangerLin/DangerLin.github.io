@@ -1,17 +1,22 @@
 ---
 Title: Baldwin's Rules: A Guide to Ring-Closing Reactions
-Date: 2025-12-20 00:00:00 -0500
+description: Struggling with determining the major product of a ring-closing reaction? Wanna know if the cyclization reaction you design for your project is feasible? You may want to learn Baldwin's rules.
+Date: 2025-12-24 20:00:00 -0500
 Categories: organic chemistry, cyclization
 Tags: baldwin's rule
 ---
 
-# Baldwin's Rules: A Guide to Ring-Closing Reactions
+
 
 *In memory of Professor Jack Baldwin (1938-2020)*
 
 ## Introduction: A Puzzling Selectivity
 
-If you're studying organic chemistry, you've probably encountered puzzling questions about cyclization reactions. Consider this: when the same molecule undergoes intramolecular ring closure, and both possible products would form five-membered rings, why does one pathway give 100% yield while the other gives essentially 0%?
+If you're studying organic chemistry, you've probably encountered puzzling questions about cyclization reactions. Consider this: when the same molecule undergoes intramolecular ring closure, and both possible products would form five-membered rings, why does one pathway give 100% yield while the other gives essentially 0% (**Scheme 1**)?
+
+![**Scheme 1**. *Why **1-2** is the major produt?*](https://github.com/DangerLin/DangerLin.github.io/blob/master/assets/img/Baldwin/Scheme_1.png)
+
+_**Scheme 1**. *Why **1-2** is the major produt?*_
 
 This selectivity isn't random—it follows a set of elegant guidelines known as **Baldwin's rules**, which help us predict and understand the feasibility of ring-closing reactions.
 
@@ -21,27 +26,37 @@ In 1976, British chemist Sir Jack Edward Baldwin systematically analyzed cycliza
 
 ### 1. **Ring Size (n)**
 
-A number indicating the size of the ring being formed:
+A number indicating the size of the ring being formed. For example:
 
-- **5-endo-trig** → forming a 5-membered ring
-- **6-exo-dig** → forming a 6-membered ring
+- **5-*endo*-*trig*** means the reaction is forming a 5-membered ring
+- **6-*exo*-*dig*** means the reaction is forming a 6-membered ring
 
 ### 2. **Bond-Breaking Mode**
 
 The position of the breaking bond relative to the forming ring:
 
-- **Exo** (exocyclic): The bond being broken lies outside the ring being formed. This ultimately produces a smaller ring.
-- **Endo** (endocyclic): The bond being broken lies inside the ring being formed. This ultimately produces a larger ring.
+- ***exo*** (exocyclic): The bond being broken lies outside the ring being formed. This ultimately produces a smaller ring.
+- ***endo*** (endocyclic): The bond being broken lies inside the ring being formed. This ultimately produces a larger ring.
+
+![exo_and_endo](https://github.com/DangerLin/DangerLin.github.io/blob/master/assets/img/Baldwin/exo_endo.png)
 
 ### 3. **Hybridization of the Attacked Atom**
 
-- **Tet**: The atom being attacked is sp³ hybridized (tetrahedral)
-- **Trig**: The atom being attacked is sp² hybridized (trigonal)
-- **Dig**: The atom being attacked is sp hybridized (digonal)
+- ***tet***: The atom being attacked is sp³ hybridized (tetrahedral)
+- ***trig***: The atom being attacked is sp² hybridized (trigonal)
+- ***dig***: The atom being attacked is sp hybridized (digonal)
+
+![tet_trig_dig](https://github.com/DangerLin/DangerLin.github.io/blob/master/assets/img/Baldwin/type.png)
 
 ## The Rules in Detail
 
+Okay, now we know Sir Baldwin described the ring-closing rules by using three key parameters, the ring size (n), the bond-breaking mode (*exo* and *endo*), and the hybridization of the attacked atom (*tet*, *trig*, and *dig*). But what exactly the Baldwin's rules are? How can we use these three parameters to "predict" the major product of a cyclization reaction?
+
+Primarily, Baldwin's rules can be described as follows:
+
 ### Rule 1: Tetrahedral (Tet) Systems
+
+**For tetrahedral centers, attack from outside the forming ring (exo) is generally favored.**
 
 **Favorable:**
 
@@ -51,9 +66,11 @@ The position of the breaking bond relative to the forming ring:
 
 - 5- to 6-membered rings via **endo-tet** cyclization
 
-**Key takeaway:** For tetrahedral centers, attack from outside the forming ring (exo) is generally favored.
+![tet](https://github.com/DangerLin/DangerLin.github.io/blob/master/assets/img/Baldwin/tet.png)
 
 ### Rule 2: Trigonal (Trig) Systems
+
+**For trigonal centers, attack from outside the forming ring (exo) is generally favored, while larger rings (6-7 membered) can accommodate endo-trig closures, but smaller rings cannot.**
 
 **Favorable:**
 
@@ -64,9 +81,11 @@ The position of the breaking bond relative to the forming ring:
 
 - 3- to 5-membered rings via **endo-trig** cyclization
 
-**Key takeaway:** Larger rings (6-7 membered) can accommodate endo-trig closures, but smaller rings cannot.
+![tirg](https://github.com/DangerLin/DangerLin.github.io/blob/master/assets/img/Baldwin/trig.png)
 
 ### Rule 3: Digonal (Dig) Systems
+
+**Digonal systems show different selectivity—endo closures are broadly favorable, while small exo closures are disfavored.**
 
 **Favorable:**
 
@@ -77,7 +96,7 @@ The position of the breaking bond relative to the forming ring:
 
 - 3- to 4-membered rings via **exo-dig** cyclization
 
-**Key takeaway:** Digonal systems show different selectivity—endo closures are broadly favorable, while small exo closures are disfavored.
+![dig](https://github.com/DangerLin/DangerLin.github.io/blob/master/assets/img/Baldwin/dig.png)
 
 ## Summary Table
 
