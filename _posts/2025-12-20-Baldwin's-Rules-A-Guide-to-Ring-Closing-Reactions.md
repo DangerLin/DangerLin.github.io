@@ -1,11 +1,10 @@
 ---
-title: Baldwin's Rules"\u003A" A Guide to Ring-Closing Reactions
+title: Baldwin's Rules\u003A A Guide to Ring-Closing Reactions
 description: Struggling with determining the major product of a ring-closing reaction? Wanna know if the cyclization reaction you design for your project is feasible? You may want to learn Baldwin's rules.
 date: 2025-12-24 20:00:00 -0500
 author: Danger
 categories: [Organic chemistry, Cyclization]
 tags: [baldwin's rule]
-media_subpath: https://github.com/DangerLin/DangerLin.github.io/blob/master/assets/img/Baldwin/
 ---
 
 *In memory of Professor Jack Baldwin (1938-2020)*
@@ -37,7 +36,7 @@ The position of the breaking bond relative to the forming ring:
 - ***exo*** (exocyclic): The bond being broken lies outside the ring being formed. This ultimately produces a smaller ring.
 - ***endo*** (endocyclic): The bond being broken lies inside the ring being formed. This ultimately produces a larger ring.
 
-![exo_and_endo](https://github.com/DangerLin/DangerLin.github.io/blob/master/assets/img/Baldwin/exo_endo.png)
+![exo_and_endo](/assets/img/Baldwin/exo_endo.png)
 
 ### 3. **Hybridization of the Attacked Atom**
 
