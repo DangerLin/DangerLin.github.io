@@ -1,9 +1,9 @@
 ---
-title: Baldwin's Rules A Guide to Ring-Closing Reactions
+title: Baldwin's Rules&#58; A Guide to Ring-Closing Reactions
 description: Struggling with determining the major product of a ring-closing reaction? Wanna know if the cyclization reaction you design for your project is feasible? You may want to learn Baldwin's rules.
 date: 2025-12-24 20:00:00 -0500
 author: Danger
-categories: [organic chemistry, cyclization]
+categories: [Organic chemistry, Cyclization]
 tags: [baldwin's rule]
 media_subpath: https://github.com/DangerLin/DangerLin.github.io/blob/master/assets/img/Baldwin/
 ---
@@ -14,7 +14,7 @@ media_subpath: https://github.com/DangerLin/DangerLin.github.io/blob/master/asse
 
 If you're studying organic chemistry, you've probably encountered puzzling questions about cyclization reactions. Consider this: when the same molecule undergoes intramolecular ring closure, and both possible products would form five-membered rings, why does one pathway give 100% yield while the other gives essentially 0% (**Scheme 1**)?
 
-![**Scheme 1**. *Why **1-2** is the major produt?*](https://github.com/DangerLin/DangerLin.github.io/blob/master/assets/img/Baldwin/Scheme_1.png)
+![**Scheme 1**. *Why **1-2** is the major produt?*](/assets/img/Baldwin/Scheme_1.png)
 
 _**Scheme 1**. *Why **1-2** is the major produt?*_
 
