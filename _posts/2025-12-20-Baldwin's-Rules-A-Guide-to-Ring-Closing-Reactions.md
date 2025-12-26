@@ -1,5 +1,5 @@
 ---
-title: Baldwin's Rules\u003A A Guide to Ring-Closing Reactions
+title: Baldwin's Rules&#58; A Guide to Ring-Closing Reactions
 description: Struggling with determining the major product of a ring-closing reaction? Wanna know if the cyclization reaction you design for your project is feasible? You may want to learn Baldwin's rules.
 date: 2025-12-24 20:00:00 -0500
 author: Danger
@@ -37,6 +37,7 @@ The position of the breaking bond relative to the forming ring:
 - ***endo*** (endocyclic): The bond being broken lies inside the ring being formed. This ultimately produces a larger ring.
 
 ![exo_and_endo](/assets/img/Baldwin/exo_endo.png)
+_Type of bond-breaking mode_
 
 ### 3. **Hybridization of the Attacked Atom**
 
@@ -44,11 +45,12 @@ The position of the breaking bond relative to the forming ring:
 - ***trig***: The atom being attacked is sp² hybridized (trigonal)
 - ***dig***: The atom being attacked is sp hybridized (digonal)
 
-![tet_trig_dig](https://github.com/DangerLin/DangerLin.github.io/blob/master/assets/img/Baldwin/type.png)
+![tet_trig_dig](/assets/img/Baldwin/type.png)
+_Type of different hybridization of the attacked atom_
 
 ## The Rules in Detail
 
-Okay, now we know Sir Baldwin described the ring-closing rules by using three key parameters, the ring size (n), the bond-breaking mode (*exo* and *endo*), and the hybridization of the attacked atom (*tet*, *trig*, and *dig*). But what exactly the Baldwin's rules are? How can we use these three parameters to "predict" the major product of a cyclization reaction?
+Okay, now we know Sir Baldwin described the ring-closing rules by using three key parameters: the ring size (n), the bond-breaking mode (*exo* and *endo*), and the hybridization of the attacked atom (*tet*, *trig*, and *dig*). But what exactly are the Baldwin's rules? How can we use these three parameters to "predict" the major product of a cyclization reaction?
 
 Primarily, Baldwin's rules can be described as follows:
 
@@ -64,7 +66,8 @@ Primarily, Baldwin's rules can be described as follows:
 
 - 5- to 6-membered rings via **endo-tet** cyclization
 
-![tet](https://github.com/DangerLin/DangerLin.github.io/blob/master/assets/img/Baldwin/tet.png)
+![tet](/assets/img/Baldwin/tet.png)
+_Tetrahedral (Tet) Systems_ 
 
 ### Rule 2: Trigonal (Trig) Systems
 
@@ -80,6 +83,7 @@ Primarily, Baldwin's rules can be described as follows:
 - 3- to 5-membered rings via **endo-trig** cyclization
 
 ![tirg](https://github.com/DangerLin/DangerLin.github.io/blob/master/assets/img/Baldwin/trig.png)
+_Trigonal (Trig) Systems_
 
 ### Rule 3: Digonal (Dig) Systems
 
@@ -95,6 +99,7 @@ Primarily, Baldwin's rules can be described as follows:
 - 3- to 4-membered rings via **exo-dig** cyclization
 
 ![dig](https://github.com/DangerLin/DangerLin.github.io/blob/master/assets/img/Baldwin/dig.png)
+_Digonal (Dig) Systems_
 
 ## Summary Table
 
