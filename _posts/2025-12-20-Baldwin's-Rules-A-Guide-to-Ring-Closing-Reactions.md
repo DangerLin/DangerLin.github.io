@@ -2,12 +2,11 @@
 title: Baldwin's Rules: A Guide to Ring-Closing Reactions
 description: Struggling with determining the major product of a ring-closing reaction? Wanna know if the cyclization reaction you design for your project is feasible? You may want to learn Baldwin's rules.
 date: 2025-12-24 20:00:00 -0500
+author: Danger
 categories: [organic chemistry, cyclization]
 tags: [baldwin's rule]
 media_subpath: https://github.com/DangerLin/DangerLin.github.io/blob/master/assets/img/Baldwin/
 ---
-
-
 
 *In memory of Professor Jack Baldwin (1938-2020)*
 
