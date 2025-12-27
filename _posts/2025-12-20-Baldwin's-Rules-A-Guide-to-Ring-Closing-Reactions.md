@@ -133,7 +133,6 @@ Baldwin's rules also apply to cyclizations involving ketone enolate anions, with
 - ***enolexo***: The C–C bond of the enolate lies outside the forming ring
 
 ![enol](/assets/img/Baldwin/enol.jpeg)
-
 _Type of ring-closing type for enolate anions_
 
 The Baldwin's rules for enolate anions can be described as follows:
@@ -181,7 +180,6 @@ When sulfur or other third-row elements participate, sometimes disfavored proces
 - Empty 3d orbitals on sulfur that can interact with π bonds
 
   ![sulfur](/assets/img/Baldwin/sulfur.jpeg)
-
   _S atom involving ring closure with 5-enod-trig_
 
 ### 4. Applicability to Cations and Radicals
@@ -195,7 +193,6 @@ Baldwin's rules can also be applied to cationic and radical cyclizations.
 Like all empirical rules in chemistry, violations of Baldwin's rules have been documented. Special structural features, electronic effects, or reaction conditions can override the general trends.
 
 ![violation](/assets/img/Baldwin/violation.jpeg)
-
 _An exception of Baldwin's rules_
 
 ## Practice Time
@@ -205,18 +202,16 @@ Well, well, well, as an old saying claims, *"practice makes perfect."* Let's try
 **Question 1:** Are the following reactions feasible? Why or why not?
 
 a) A 4-*exo*-*trig* ring closure reaction
- b) A 6-*endo*-*dig* ring closure reaction
+b) A 6-*endo*-*dig* ring closure reaction
 
 **Question 2:** Are the following reactions feasible? Why or why not?
 
 ![Q_2](/assets/img/Baldwin/example0.jpeg)
-
-_Q 2: Are the reactions feasible?_
+_Are the reactions feasible?_
 
 **Question 3:** Finish the following reactions:
 
 ![Q_3](/assets/img/Baldwin/example_1.jpeg)
-
 _Finish the reactions_
 
 *(Think through these using the rules above before checking literature or computational predictions!)*
