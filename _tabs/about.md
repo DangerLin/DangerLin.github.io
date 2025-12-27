@@ -2,7 +2,7 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 order: 4
-Title: About Me
+Title: About
 Date: 2025-12-20 00:00:00 -0500
 ---
 
@@ -16,4 +16,4 @@ My research interest is in developing sustainable synthetic methods and accelera
 
 By the way, I am the father of two cats, Oscar (exotic shorthair) and Paper (normal Munchkin). 
 
-![Oscar_Paper](https://github.com/DangerLin/DangerLin.github.io/blob/master/assets/img/About/Oscar_Paper.jpeg)
+![Oscar_Paper](/assets/img/About/Oscar_Paper.jpeg)

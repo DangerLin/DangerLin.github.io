@@ -14,7 +14,7 @@ tags: [baldwin's rule]
 If you're studying organic chemistry, you've probably encountered puzzling questions about cyclization reactions. Consider this: when the same molecule undergoes intramolecular ring closure, and both possible products would form five-membered rings, why does one pathway give 100% yield while the other gives essentially 0% (**Scheme 1**)?
 
 ![**Scheme 1**. *Why **1-2** is the major produt?*](/assets/img/Baldwin/Scheme_1.png)
-_**Scheme 1**. Why **1-2** is the major produt?_
+_Why **1-2** is the major produt?_
 
 This selectivity isn't random—it follows a set of elegant guidelines known as **Baldwin's rules**, which help us predict and understand the feasibility of ring-closing reactions.
 
@@ -60,11 +60,11 @@ Primarily, Baldwin's rules can be described as follows:
 
 **Favorable:**
 
-- 3- to 7-membered rings via **exo-tet** cyclization
+- 3- to 7-membered rings via ***exo-tet*** cyclization
 
 **Unfavorable:**
 
-- 5- to 6-membered rings via **endo-tet** cyclization
+- 5- to 6-membered rings via ***endo-tet*** cyclization
 
 ![tet](/assets/img/Baldwin/tet.png)
 _Tetrahedral (Tet) Systems_ 
@@ -75,14 +75,14 @@ _Tetrahedral (Tet) Systems_
 
 **Favorable:**
 
-- 3- to 7-membered rings via **exo-trig** cyclization
-- 6- to 7-membered rings via **endo-trig** cyclization
+- 3- to 7-membered rings via ***exo-trig*** cyclization
+- 6- to 7-membered rings via ***endo-trig*** cyclization
 
 **Unfavorable:**
 
-- 3- to 5-membered rings via **endo-trig** cyclization
+- 3- to 5-membered rings via ***endo-trig*** cyclization
 
-![tirg](https://github.com/DangerLin/DangerLin.github.io/blob/master/assets/img/Baldwin/trig.png)
+![tirg](/assets/img/Baldwin/trig.png)
 _Trigonal (Trig) Systems_
 
 ### Rule 3: Digonal (Dig) Systems
@@ -91,98 +91,139 @@ _Trigonal (Trig) Systems_
 
 **Favorable:**
 
-- 5- to 7-membered rings via **exo-dig** cyclization
-- 3- to 7-membered rings via **endo-dig** cyclization
+- 5- to 7-membered rings via ***exo-dig*** cyclization
+- 3- to 7-membered rings via ***endo-dig*** cyclization
 
 **Unfavorable:**
 
-- 3- to 4-membered rings via **exo-dig** cyclization
+- 3- to 4-membered rings via ***exo-dig*** cyclization
 
-![dig](https://github.com/DangerLin/DangerLin.github.io/blob/master/assets/img/Baldwin/dig.png)
+![dig](/assets/img/Baldwin/dig.png)
 _Digonal (Dig) Systems_
 
-## Summary Table
+The following summary table may give you a more straightforward view:
 
-| Ring Size     | 3    | 4    | 5    | 6    | 7    |
-| ------------- | ---- | ---- | ---- | ---- | ---- |
-| **exo-tet**   | ✓    | ✓    | ✓    | ✓    | ✓    |
-| **endo-tet**  | —    | —    | ✗    | ✗    | —    |
-| **exo-trig**  | ✓    | ✓    | ✓    | ✓    | ✓    |
-| **endo-trig** | ✗    | ✗    | ✗    | ✓    | ✓    |
-| **exo-dig**   | ✗    | ✗    | ✓    | ✓    | ✓    |
-| **endo-dig**  | ✓    | ✓    | ✓    | ✓    | ✓    |
+|    Ring Size    |  3   |  4   |  5   |  6   |  7   |
+| :-------------: | :--: | :--: | :--: | :--: | :--: |
+|  ***exo-tet***  |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |
+| ***endo-tet***  |  —   |  —   |  ✗   |  ✗   |  —   |
+| ***exo-trig***  |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |
+| ***endo-trig*** |  ✗   |  ✗   |  ✗   |  ✓   |  ✓   |
+|  ***exo-dig***  |  ✗   |  ✗   |  ✓   |  ✓   |  ✓   |
+| ***endo-dig***  |  ✓   |  ✓   |  ✓   |  ✓   |  ✓   |
 
 *(✓ = favored, ✗ = disfavored, — = not commonly observed)*
 
 ## Solving the Opening Puzzle
 
-Now we can understand the selectivity shown in the opening example. The molecule can cyclize via two pathways:
+With the Baldwin's rules in hand, now we can understand the selectivity shown in the opening example. In the example, the molecule **1-1** can cyclize via two pathways:
 
-- **Path A**: 5-endo-trig → **Disfavored** (yields ~0%)
-- **Path B**: 5-exo-trig → **Favored** (yields ~100%)
+- **Path A**: 5-*endo*-*trig* (red-dashed arrow)
+- **Path B**: 5-*exo*-*trig* (blue-solid arrow)
 
-According to Baldwin's rules, 5-endo-trig cyclizations are unfavorable, while 5-exo-trig are favored. This perfectly explains the observed selectivity!
+According to Baldwin's rules, 5-*endo*-*trig* cyclizations are unfavorable, while 5-*exo*-*trig* are favored. This perfectly explains the observed selectivity that **1-2** is the major product in this cyclization (with a yield of 100%).
+
+![Scheme_2](/assets/img/Baldwin/Scheme_2.png)
 
 ## Extension to Enolate Anions
 
-Baldwin's rules also apply to cyclizations involving enolate anions, with additional descriptors:
+Baldwin's rules also apply to cyclizations involving ketone enolate anions, with additional descriptors were added to make the terminology more specific:
 
-- **Enolendo**: The C-C bond of the enolate becomes part of the forming ring
-- **Enolexo**: The C-C bond of the enolate lies outside the forming ring
+- ***enolendo***: The C–C bond of the enolate becomes part of the forming ring
+- ***enolexo***: The C–C bond of the enolate lies outside the forming ring
 
-**Simplified rules for enolates:**
+![enol](/assets/img/Baldwin/enol.jpeg)
 
-1. **3- to 5-membered rings**: enolexo processes are favored; enolendo processes are disfavored
-2. **6- to 7-membered rings**: enolendo processes become favored
+_Type of ring-closing type for enolate anions_
 
-This helps explain why certain ketone cyclizations favor one regioisomer over another based on ring size.
+The Baldwin's rules for enolate anions can be described as follows:
+
+1. For 6- to 7-membered rings, the *enolendo-exo-tet* processes are favored.
+2. For 3- to 5-membered rings, the *enolendo-exo-tet* processes are disfavored.
+3. For 3- to 7-membered rings, the *enolexo-exo-tet* processes are favored.
+4. For 3- to 7-membered rings, the *enolexo-exo-trig* processes are favored.
+5. For 6- to 7-membered rings, the *enolendo-exo-trig* processes are favored.
+6. For 3- to 5-membered rings, the *enolendo-exo-trig* processes are disfavored.
+
+**A much more simplified description is:**
+
+1. For **3- to 5-membered rings**, the *enolexo* processes are favored, while *enolendo* processes are disfavored.
+2. For **6- to 7-membered rings**, both *enolexo* and *enolendo* processes are favored.
+
+This helps explain the following example that why certain ketone cyclizations favor one regioisomer over another based on ring size.
+
+![Scheme_3](/assets/img/Baldwin/scheme_3.jpeg)
 
 ## Important Considerations
 
+When applying Baldwin's rules to the ring closure reaction, one should be aware of the following considerations:
+
 ### 1. "Disfavored" ≠ "Forbidden"
 
-Baldwin's "disfavored" classification doesn't mean the reaction is impossible—just that it's more difficult and may require special conditions or give lower yields.
+Baldwin's "disfavored" classification doesn't mean the reaction is impossible—just that it's more difficult than the favored cases and may require special conditions or give lower yields. These rules are empirical and have a stereochemical basis. Specifically, the preferred pathways are those where the length and nature of the connecting chain allow the terminal atoms to achieve the appropriate geometries for reaction. In contrast, the unfavorable cases necessitate significant distortion of bond angles and distances.
 
 ### 2. Relative Reactivity Trends for Trig Systems
 
-- **5-endo ≫ 4-exo**
-- **5-exo > 6-endo**
-- **6-exo ≫ 7-endo**
+For Trig systems, sometimes there are more than one favored pathways in the ring closure. In such cases, the general rule will be:
+
+- **5-*endo*** is MUCH MORE FAVORED THAN **4-*exo***
+- **5-*exo*** is more favored than 6-***endo***
+- **6-*exo*** is MUCH MORE FAVORED THAN **7-*endo***
 
 These trends help predict product distributions when multiple pathways are possible.
 
 ### 3. Third-Row Elements (S, P, etc.)
 
-When sulfur or other third-row elements participate, normally disfavored processes like **5-endo-trig** can become feasible. This is attributed to:
+When sulfur or other third-row elements participate, sometimes disfavored processes like **5-*endo*-*trig*** can become feasible. This is attributed to:
 
-- Longer C-S bond lengths providing geometric flexibility
+- Longer C–S bond lengths providing geometric flexibility
+
 - Empty 3d orbitals on sulfur that can interact with π bonds
+
+  ![sulfur](/assets/img/Baldwin/sulfur.jpeg)
+
+  _S atom involving ring closure with 5-enod-trig_
 
 ### 4. Applicability to Cations and Radicals
 
-Baldwin's rules apply equally well to cationic and radical cyclizations, not just anionic processes.
+Baldwin's rules can also be applied to cationic and radical cyclizations.
+
+![radical](/assets/img/Baldwin/cation_radical.jpeg)
 
 ### 5. Exceptions Exist
 
 Like all empirical rules in chemistry, violations of Baldwin's rules have been documented. Special structural features, electronic effects, or reaction conditions can override the general trends.
 
-## Practice Problems
+![violation](/assets/img/Baldwin/violation.jpeg)
 
-**Problem 1:** Are the following reactions feasible? Why or why not?
+_An exception of Baldwin's rules_
 
-a) A 4-exo-trig cyclization
- b) A 6-endo-dig cyclization
+## Practice Time
 
-**Problem 2:** Predict the major product when the following substrates undergo cyclization:
+Well, well, well, as an old saying claims, *"practice makes perfect."* Let's try some practice to see how well you learned from Baldwin's rules.
 
-a) An alkoxide with a choice between 5-exo-tet and 6-enolendo-exo-tet pathways
- b) A nitrogen nucleophile with options for 5-endo-dig vs. 6-exo-dig attack on an alkyne
+**Question 1:** Are the following reactions feasible? Why or why not?
+
+a) A 4-*exo*-*trig* ring closure reaction
+ b) A 6-*endo*-*dig* ring closure reaction
+
+**Question 2:** Are the following reactions feasible? Why or why not?
+
+![Q_2](/assets/img/Baldwin/example0.jpeg)
+
+_Q 2: Are the reactions feasible?_
+
+**Question 3:** Finish the following reactions:
+
+![Q_3](/assets/img/Baldwin/example_1.jpeg)
+
+_Finish the reactions_
 
 *(Think through these using the rules above before checking literature or computational predictions!)*
 
 ## A Tribute to Professor Baldwin
 
-Professor Sir Jack Edward Baldwin passed away in January 2020 at the age of 81. His contributions to organic chemistry extended far beyond these rules—he made fundamental discoveries in natural product synthesis, enzymatic mechanisms, and stereoselective reactions.
+Professor Sir Jack Edward Baldwin passed away in January 2020 at the age of 81. His contributions to organic chemistry extended far beyond these rules—he made fundamental discoveries in total synthesis of natural products, mechanisms of reactions, and biomimetic synthesis.
 
 Baldwin's rules remain one of the most practical and widely used guidelines in synthetic organic chemistry, helping chemists design more efficient syntheses and understand reaction selectivity. His legacy continues to guide researchers in academia and industry worldwide.
 
@@ -192,18 +233,22 @@ Baldwin's rules provide a powerful framework for understanding and predicting th
 
 Whether you're planning a total synthesis, analyzing a reaction mechanism, or simply studying for an exam, these rules are an indispensable tool in the organic chemist's toolkit.
 
-------
+
+
+
+
+---
 
 ## References
 
-1. Baldwin, J. E. *J. Chem. Soc. Chem. Commun.* **1976**, 734-736.
-2. Baldwin, J. E.; Thomas, R. C.; Kruse, L.; Silberman, L. *J. Org. Chem.* **1977**, *42*, 3846-3852.
-3. Johnson, C. D. *Acc. Chem. Res.* **1993**, *26*, 476-482.
-4. Baldwin, J. E.; Kruse, L. I. *J. Chem. Soc. Chem. Commun.* **1977**, 233-235.
-5. Baldwin, J. E. *Tetrahedron* **1982**, *38*, 2939-2947.
-6. Alabugin, I. V.; Gilmore, K. *Chem. Commun.* **2013**, *49*, 11246-11250.
-7. Ferry, G. *Nature* **2020**, *578*, 212.
+1. Baldwin, J. E. *J. Chem. Soc. Chem. Commun.*, 734-736 (1976).
+2. Baldwin, J. E.; Thomas, R. C.; Kruse, L.; Silberman, L. *J. Org. Chem.*, **42**, 3846-3852 (1977).
+3. Johnson, C. D. *Acc. Chem. Res.*, **26**, 476-482 (1993).
+4. Baldwin, J. E.; Kruse, L. I. *J. Chem. Soc. Chem. Commun.*, 233-235 (1977).
+5. Baldwin, J. E. *Tetrahedron* **38**, 2939-2947 (1982).
+6. Baldwin, J. E.; Cutting, J.; Dupont, W.; Kruse, L. I.; Silberman, L.; Thomas. R. C. *J. Chem. Soc., Chem. Commun*., 736-738 (1976).
+7. Alabugin, I. V.; Gilmore, K. *Chem. Commun.*, **49**, 11246-11250 (**2013**).
+8. Craig, D.; Ikin, N. J.; Mathews, N.; Smith, A. M. *Tetrahedron* **5**, 13471-13494 (1999).
+9. Overhand, M.; Hecht, S. M. *J. Org. Chem.*, **59**, 4721-4722 (1994).
+10. Ferry, G. Nature **578**, 212 ( 2020).
 
-------
-
-*Have questions or examples to share? Understanding these rules through practice is the best way to internalize them. Happy cyclizing!*
