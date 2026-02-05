@@ -80,6 +80,7 @@ Consider water with atoms ordered as O<sup>1</sup>, H<sup>1</sup>, and H<sup>2</
 - Oxygen has two lone pairs → 4 nonbonding electrons
 
 The BE matrix becomes:
+
 $$
 \mathbf{B_{H_2O}} =
 \begin{bmatrix}
@@ -88,6 +89,7 @@ $$
 2 & 0 & 0 
 \end{bmatrix}
 $$
+
 This single matrix encodes:
 
 - Connectivity (O bonded to both H atoms)
@@ -126,6 +128,7 @@ Let consider the following reaction as an example for better understanding (each
 ![**Scheme 1**. Example reaction](/assets/img/BE_matrix/Rxn.png)
 
 So we have the reactant BE matrix **R** as (order same as the number in reaction scheme):
+
 $$
 \mathbf{R} =
 \begin{bmatrix}
@@ -142,7 +145,9 @@ $$
 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 
 \end{bmatrix}
 $$
+
 While the product BE matrix **P** is:
+
 $$
 \mathbf{P} =
 \begin{bmatrix}
@@ -159,7 +164,9 @@ $$
 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 
 \end{bmatrix}
 $$
+
 Which means the transformation matrix **A** is:
+
 $$
 \mathbf{A} =
 \begin{bmatrix}
@@ -176,6 +183,7 @@ $$
 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 
 \end{bmatrix}
 $$
+
 This indicates the bond between C<sup>4</sup> and O<sup>7</sup>, and the bond between N<sup>9</sup> and H<sup>8</sup> were broken, while a bond between O<sup>7</sup> and H<sup>8</sup>, and a bond between C<sup>4</sup> and N<sup>9</sup>, were built. 
 
 A better illustration is showed below:
