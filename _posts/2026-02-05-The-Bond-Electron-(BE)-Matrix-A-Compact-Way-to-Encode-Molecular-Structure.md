@@ -63,7 +63,7 @@ Each covalent bond contributes **two electrons**:
 
 These electrons are split symmetrically:
 
-\( b_{ij} \) = \( b_{ji} \) 
+$\( b_{ij} \)$ = $\( b_{ji} \)$ 
 
 **Step 3: Assign Nonbonding Electrons**
 
