@@ -26,7 +26,7 @@ A **bond-electron (BE) matrix** is a square matrix representation of a molecule 
 
 For a molecule with *N* atoms, the BE matrix is an *N × N* matrix:
 
-\[
+$$
 \mathbf{B} =
 \begin{bmatrix}
 e_1 & b_{12} & \cdots & b_{1N} \\
@@ -34,7 +34,7 @@ b_{21} & e_2 & \cdots & b_{2N} \\
 \vdots & \vdots & \ddots & \vdots \\
 b_{N1} & b_{N2} & \cdots & e_N
 \end{bmatrix}
-\]
+$$
 
 where:
 
