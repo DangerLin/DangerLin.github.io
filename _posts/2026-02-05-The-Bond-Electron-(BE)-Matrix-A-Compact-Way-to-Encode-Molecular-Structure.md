@@ -85,7 +85,7 @@ $$
 \begin{bmatrix}
 4 & 2 & 2 \\
 2 & 0 & 0 \\
-2 & 0 & 0 \\
+2 & 0 & 0 
 \end{bmatrix}
 $$
 This single matrix encodes:
@@ -139,7 +139,7 @@ $$
 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\
 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 2 & 1 & 1 \\
 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\
-0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 
 \end{bmatrix}
 $$
 While the product BE matrix **P** is:
@@ -156,7 +156,7 @@ $$
 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 \\
 0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 2 & 1 & 1 \\
 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\
-0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 
 \end{bmatrix}
 $$
 Which means the transformation matrix **A** is:
@@ -173,7 +173,7 @@ $$
 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & –1 & 0 & 0 \\
 0 & 0 & 0 & 1 & 0 & 0 & 0 & –1 & 0 & 0 & 0 \\
 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
-0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 
 \end{bmatrix}
 $$
 This indicates the bond between C<sup>4</sup> and O<sup>7</sup>, and the bond between N<sup>9</sup> and H<sup>8</sup> were broken, while a bond between O<sup>7</sup> and H<sup>8</sup>, and a bond between C<sup>4</sup> and N<sup>9</sup>, were built. 
