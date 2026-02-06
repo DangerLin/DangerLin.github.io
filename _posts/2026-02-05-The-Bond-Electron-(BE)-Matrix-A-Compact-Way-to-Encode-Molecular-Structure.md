@@ -136,7 +136,7 @@ The reaction matrix **A** captures the essence of what changes during the reacti
 For most elementary reactions, 
 
 $$
-|a<sub>ij</sub>| ≤ 2
+|a_{ij}| ≤ 2
 $$
 
 since changing by two electrons represents a significant chemical process (like forming/breaking a double bond).
