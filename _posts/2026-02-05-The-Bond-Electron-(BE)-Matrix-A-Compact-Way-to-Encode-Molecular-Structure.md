@@ -26,7 +26,7 @@ A **bond-electron (BE) matrix** is a square matrix representation of a molecule 
 
 For a molecule with *N* atoms, the BE matrix is an *N × N* matrix:
 
-```math
+$$
 B =
 \begin{bmatrix}
 e_1 & b_{12} & \cdots & b_{1N} \\
@@ -34,12 +34,12 @@ b_{21} & e_2 & \cdots & b_{2N} \\
 \vdots & \vdots & \ddots & \vdots \\
 b_{N1} & b_{N2} & \cdots & e_N
 \end{bmatrix}
-```
+$$
 
 where:
 
-- Off-diagonal elements \( b_{ij} \) represents the number of **bonding electrons** shared between atoms *i* and *j* (i.e., bonds)
-- Diagonal elements \( e_i \) represents the number of **nonbonding valence electrons** on atom *i* (i.e., lone-pair electrons)
+- Off-diagonal elements $\( b_{ij} \)$ represents the number of **bonding electrons** shared between atoms *i* and *j* (i.e., bonds)
+- Diagonal elements $\( e_i \)$ represents the number of **nonbonding valence electrons** on atom *i* (i.e., lone-pair electrons)
 
 This structure makes the BE matrix closely analogous to a Lewis structure—but written in linear algebra form.
 
@@ -84,8 +84,8 @@ The BE matrix becomes:
 $$
 B_{H_2O} =
 \begin{bmatrix}
-4 & 1 & 1 \\\
-1 & 0 & 0 \\\
+4 & 1 & 1 \\
+1 & 0 & 0 \\
 1 & 0 & 0 
 \end{bmatrix}
 $$
