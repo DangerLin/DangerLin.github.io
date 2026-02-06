@@ -65,7 +65,7 @@ Each covalent bond contributes **one electron pair**:
 
 These electrons are split symmetrically:
 
-$b_{ij}$ = $b_{ji}$ 
+$b_{ij} = b_{ji}$ 
 
 **Step 3: Assign Nonbonding Electrons**
 
@@ -134,7 +134,7 @@ The reaction matrix **A** captures the essence of what changes during the reacti
 - Diagonal changes in **A** indicate electron redistribution
 - **A** must sum to zero (electron conservation: ∑<sub>i,j</sub> a<sub>ij</sub> = 0)
 
-For most elementary reactions, |a<sub>ij</sub>| ≤ 2, since changing by two electrons represents a significant chemical process (like forming/breaking a double bond).
+For most elementary reactions, $|a<sub>ij</sub>| ≤ 2$, since changing by two electrons represents a significant chemical process (like forming/breaking a double bond).
 
 Let consider the following reaction as an example for better understanding (each atom in the reaction was numbered):
 
