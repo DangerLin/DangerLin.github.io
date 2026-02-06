@@ -29,9 +29,9 @@ For a molecule with *N* atoms, the BE matrix is an *N × N* matrix:
 $$
 \mathbf{B} =
 \begin{bmatrix}
-e_1 & b_{12} & \cdots & b_{1N} \\
-b_{21} & e_2 & \cdots & b_{2N} \\
-\vdots & \vdots & \ddots & \vdots \\
+e_1 & b_{12} & \cdots & b_{1N} \\\
+b_{21} & e_2 & \cdots & b_{2N} \\\
+\vdots & \vdots & \ddots & \vdots \\\
 b_{N1} & b_{N2} & \cdots & e_N
 \end{bmatrix}
 $$
@@ -84,8 +84,8 @@ The BE matrix becomes:
 $$
 \mathbf{B_{H_2O}} =
 \begin{bmatrix}
-4 & 1 & 1 \\
-1 & 0 & 0 \\
+4 & 1 & 1 \\\
+1 & 0 & 0 \\\
 1 & 0 & 0 
 \end{bmatrix}
 $$
