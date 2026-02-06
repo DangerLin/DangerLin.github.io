@@ -29,17 +29,17 @@ For a molecule with *N* atoms, the BE matrix is an *N × N* matrix:
 $$
 B =
 \begin{bmatrix}
-e_1 & b_{12} & \cdots & b_{1N} \\
-b_{21} & e_2 & \cdots & b_{2N} \\
-\vdots & \vdots & \ddots & \vdots \\
+e_1 & b_{12} & \cdots & b_{1N} \\\\
+b_{21} & e_2 & \cdots & b_{2N} \\\\
+\vdots & \vdots & \ddots & \vdots \\\\
 b_{N1} & b_{N2} & \cdots & e_N
 \end{bmatrix}
 $$
 
 where:
 
-- Off-diagonal elements $\( b_{ij} \)$ represents the number of **bonding electrons** shared between atoms *i* and *j* (i.e., bonds)
-- Diagonal elements $\( e_i \)$ represents the number of **nonbonding valence electrons** on atom *i* (i.e., lone-pair electrons)
+- Off-diagonal elements $b_{ij}$ represents the number of **bonding electron pairs** shared between atoms *i* and *j* (i.e., bonds)
+- Diagonal elements $e_i$ represents the number of **nonbonding valence electrons** on atom *i* (i.e., lone-pair electrons)
 
 This structure makes the BE matrix closely analogous to a Lewis structure—but written in linear algebra form.
 
@@ -63,7 +63,7 @@ Each covalent bond contributes **one electron pair**:
 
 These electrons are split symmetrically:
 
-$\( b_{ij} \)$ = $\( b_{ji} \)$ 
+$b_{ij}$ = $b_{ji}$ 
 
 **Step 3: Assign Nonbonding Electrons**
 
@@ -84,8 +84,8 @@ The BE matrix becomes:
 $$
 B_{H_2O} =
 \begin{bmatrix}
-4 & 1 & 1 \\
-1 & 0 & 0 \\
+4 & 1 & 1 \\\\
+1 & 0 & 0 \\\\
 1 & 0 & 0 
 \end{bmatrix}
 $$
@@ -101,11 +101,11 @@ Consider ethylene (C<sub>2</sub>H<sub>4</sub>) as another example, with atoms or
 $$
 B_{ethylene} =
 \begin{bmatrix}
-0 & 0 & 1 & 0 & 0 & 0 \\
-0 & 0 & 1 & 0 & 0 & 0 \\
-1 & 1 & 0 & 2 & 0 & 0 \\
-0 & 0 & 2 & 0 & 1 & 1 \\
-0 & 0 & 0 & 1 & 0 & 0 \\
+0 & 0 & 1 & 0 & 0 & 0 \\\\
+0 & 0 & 1 & 0 & 0 & 0 \\\\
+1 & 1 & 0 & 2 & 0 & 0 \\\\
+0 & 0 & 2 & 0 & 1 & 1 \\\\
+0 & 0 & 0 & 1 & 0 & 0 \\\\
 0 & 0 & 0 & 1 & 0 & 0
 \end{bmatrix}
 $$
@@ -143,16 +143,16 @@ So we have the reactant BE matrix **R** as (order same as the number in reaction
 $$
 R =
 \begin{bmatrix}
-0 & 1 & 1 & 1 & 0 & 0 & 1 & 0 & 0 & 0 & 0 \\
-1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
-1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
-1 & 0 & 0 & 0 & 1 & 1 & 1 & 0 & 0 & 0 & 0 \\
-0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
-0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
-1 & 0 & 0 & 1 & 0 & 0 & 4 & 0 & 0 & 0 & 0 \\
-0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\
-0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 2 & 1 & 1 \\
-0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\
+0 & 1 & 1 & 1 & 0 & 0 & 1 & 0 & 0 & 0 & 0 \\\\
+1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\\\
+1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\\\
+1 & 0 & 0 & 0 & 1 & 1 & 1 & 0 & 0 & 0 & 0 \\\\
+0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\\\
+0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\\\
+1 & 0 & 0 & 1 & 0 & 0 & 4 & 0 & 0 & 0 & 0 \\\\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\\\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 2 & 1 & 1 \\\\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\\\
 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 
 \end{bmatrix}
 $$
@@ -162,16 +162,16 @@ While the product BE matrix **P** is:
 $$
 P =
 \begin{bmatrix}
-0 & 1 & 1 & 1 & 0 & 0 & 1 & 0 & 0 & 0 & 0 \\
-1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
-1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
-1 & 0 & 0 & 0 & 1 & 1 & 0 & 0 & 1 & 0 & 0 \\
-0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
-0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
-1 & 0 & 0 & 0 & 0 & 0 & 4 & 1 & 0 & 0 & 0 \\
-0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 \\
-0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 2 & 1 & 1 \\
-0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\
+0 & 1 & 1 & 1 & 0 & 0 & 1 & 0 & 0 & 0 & 0 \\\\
+1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\\\
+1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\\\
+1 & 0 & 0 & 0 & 1 & 1 & 0 & 0 & 1 & 0 & 0 \\\\
+0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\\\
+0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\\\
+1 & 0 & 0 & 0 & 0 & 0 & 4 & 1 & 0 & 0 & 0 \\\\
+0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 \\\\
+0 & 0 & 0 & 1 & 0 & 0 & 0 & 0 & 2 & 1 & 1 \\\\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\\\
 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 
 \end{bmatrix}
 $$
@@ -181,16 +181,16 @@ Which means the transformation matrix **A** is:
 $$
 A =
 \begin{bmatrix}
-0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
-0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
-0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
-0 & 0 & 0 & 0 & 0 & 0 & –1 & 0 & 1 & 0 & 0 \\
-0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
-0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
-0 & 0 & 0 & –1 & 0 & 0 & 0 & 1 & 0 & 0 & 0 \\
-0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & –1 & 0 & 0 \\
-0 & 0 & 0 & 1 & 0 & 0 & 0 & –1 & 0 & 0 & 0 \\
-0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\\\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\\\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\\\
+0 & 0 & 0 & 0 & 0 & 0 & –1 & 0 & 1 & 0 & 0 \\\\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\\\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\\\
+0 & 0 & 0 & –1 & 0 & 0 & 0 & 1 & 0 & 0 & 0 \\\\
+0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & –1 & 0 & 0 \\\\
+0 & 0 & 0 & 1 & 0 & 0 & 0 & –1 & 0 & 0 & 0 \\\\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\\\
 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 
 \end{bmatrix}
 $$
