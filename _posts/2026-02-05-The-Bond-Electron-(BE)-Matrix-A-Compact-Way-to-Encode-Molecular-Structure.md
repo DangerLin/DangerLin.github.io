@@ -49,17 +49,17 @@ Constructing a BE matrix typically follows these steps:
 
 **Step 1: Define the Atom Ordering**
 
-Choose an ordering of atoms (e.g., C<sub>1</sub>, C<sub>2</sub>, O<sub>3</sub>, H<sub>4</sub>…). The BE matrix depends on this ordering, though different orderings are related by permutation.
+Choose an ordering of atoms (e.g., C<sup>1</sup>, C<sup>2</sup>, O<sup>3</sup>, H<sup>4</sup>…). The BE matrix depends on this ordering, though different orderings are related by permutation.
 
-**Step 2: Assign Bonding Electrons**
+**Step 2: Assign Bonding Electron pairs**
 
-Each covalent bond contributes **two electrons**:
+Each covalent bond contributes **one electron pair**:
 
-| Bond type | Electrons |
+| Bond type | Electron pairs |
 | :-------: | :-------: |
-|  Single   |     2     |
-|  Double   |     4     |
-|  Triple   |     6     |
+|  Single   |     1     |
+|  Double   |     2     |
+|  Triple   |     3     |
 
 These electrons are split symmetrically:
 
@@ -84,9 +84,9 @@ The BE matrix becomes:
 $$
 \mathbf{B_{H_2O}} =
 \begin{bmatrix}
-4 & 2 & 2 \\
-2 & 0 & 0 \\
-2 & 0 & 0 
+4 & 1 & 1 \\
+1 & 0 & 0 \\
+1 & 0 & 0 
 \end{bmatrix}
 $$
 
@@ -96,11 +96,22 @@ This single matrix encodes:
 - Bond order (single bonds)
 - Electron localization (oxygen lone pairs)
 
-Consider ethylene (C<sub>2</sub>H<sub>4</sub>) as another example, with atoms ordered as H<sup>1</sup>, H<sup>2</sup>, C<sup>1</sup>, C<sup>2</sup>, H<sup>3</sup>, and H<sup>4</sup>.
+Consider ethylene (C<sub>2</sub>H<sub>4</sub>) as another example, with atoms ordered as H<sup>1</sup>, H<sup>2</sup>, C<sup>3</sup>, C<sup>4</sup>, H<sup>5</sup>, and H<sup>6</sup>. The BE matrix of ethylene is:
+
+$$
+\mathbf{B_{ethylene}} =
+\begin{bmatrix}
+0 & 0 & 1 & 0 & 0 & 0 \\
+0 & 0 & 1 & 0 & 0 & 0 \\
+1 & 1 & 0 & 2 & 0 & 0 \\
+0 & 0 & 2 & 0 & 1 & 1 \\
+0 & 0 & 0 & 1 & 0 & 0 \\
+0 & 0 & 0 & 1 & 0 & 0
+\end{bmatrix}
+$$
 
 
-
-As you may already notice, a key insight is that, ***The sum of any row (or column) equals the total number of valence electrons belonging to that atom***.
+As you may already notice, a key insight is that ***The sum of any row (or column) equals the total number of valence electrons belonging to that atom***.
 
 ## Technical Deep Dive: The Reaction Matrix
 
