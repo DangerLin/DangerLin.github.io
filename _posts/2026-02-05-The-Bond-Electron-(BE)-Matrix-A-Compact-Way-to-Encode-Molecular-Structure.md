@@ -30,28 +30,13 @@ For a molecule with *N* atoms, the BE matrix is an *N × N* matrix:
 $$
 B =
 \begin{bmatrix}
-e_1 & b_{12} & \cdots & b_{1N} \\\\
-b_{21} & e_2 & \cdots & b_{2N} \\\\
-\vdots & \vdots & \ddots & \vdots \\\\
-b_{N1} & b_{N2} & \cdots & e_N
-\end{bmatrix}
+e_1 & b_{12} & \cdots & b_{1N} \\ b_{21} & e_2 & \cdots & b_{2N} \\ \vdots & \vdots & \ddots & \vdots \\ b_{N1} & b_{N2} & \cdots & e_N \end{bmatrix}
 $$
-
-
-
-
-\begin{bmatrix}
-e_1 & b_{12} & \cdots & b_{1N} \\
-b_{21} & e_2 & \cdots & b_{2N} \\
-\vdots & \vdots & \ddots & \vdots \\
-b_{N1} & b_{N2} & \cdots & eN
-\end{bmatrix}
-
 
 
 where:
 
-- Off-diagonal elements $`\b_{ij}`$ represents the number of **bonding electron pairs** shared between atoms *i* and *j* (i.e., bonds)
+- Off-diagonal elements $\(b_{ij}\)$ represents the number of **bonding electron pairs** shared between atoms *i* and *j* (i.e., bonds)
 - Diagonal elements $\e_i$ represents the number of **nonbonding valence electrons** on atom *i* (i.e., lone-pair electrons)
 
 This structure makes the BE matrix closely analogous to a Lewis structure—but written in linear algebra form.
