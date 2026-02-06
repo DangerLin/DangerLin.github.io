@@ -27,7 +27,7 @@ A **bond-electron (BE) matrix** is a square matrix representation of a molecule 
 For a molecule with *N* atoms, the BE matrix is an *N × N* matrix:
 
 $$
-\{B} =
+B =
 \begin{bmatrix}
 e_1 & b_{12} & \cdots & b_{1N} \\\
 b_{21} & e_2 & \cdots & b_{2N} \\\
@@ -82,7 +82,7 @@ Consider water with atoms ordered as O<sup>1</sup>, H<sup>1</sup>, and H<sup>2</
 The BE matrix becomes:
 
 $$
-\mathbf{B_{H_2O}} =
+B_{H_2O} =
 \begin{bmatrix}
 4 & 1 & 1 \\\
 1 & 0 & 0 \\\
@@ -99,7 +99,7 @@ This single matrix encodes:
 Consider ethylene (C<sub>2</sub>H<sub>4</sub>) as another example, with atoms ordered as H<sup>1</sup>, H<sup>2</sup>, C<sup>3</sup>, C<sup>4</sup>, H<sup>5</sup>, and H<sup>6</sup>. The BE matrix of ethylene is:
 
 $$
-\mathbf{B_{ethylene}} =
+B_{ethylene} =
 \begin{bmatrix}
 0 & 0 & 1 & 0 & 0 & 0 \\
 0 & 0 & 1 & 0 & 0 & 0 \\
@@ -141,7 +141,7 @@ Let consider the following reaction as an example for better understanding (each
 So we have the reactant BE matrix **R** as (order same as the number in reaction scheme):
 
 $$
-\mathbf{R} =
+R =
 \begin{bmatrix}
 0 & 1 & 1 & 1 & 0 & 0 & 1 & 0 & 0 & 0 & 0 \\
 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
@@ -160,7 +160,7 @@ $$
 While the product BE matrix **P** is:
 
 $$
-\mathbf{P} =
+P =
 \begin{bmatrix}
 0 & 1 & 1 & 1 & 0 & 0 & 1 & 0 & 0 & 0 & 0 \\
 1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
@@ -179,7 +179,7 @@ $$
 Which means the transformation matrix **A** is:
 
 $$
-\mathbf{A} =
+A =
 \begin{bmatrix}
 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
