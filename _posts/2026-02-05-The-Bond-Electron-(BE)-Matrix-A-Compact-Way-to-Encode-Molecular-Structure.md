@@ -40,8 +40,8 @@ $$
 
 where:
 
-- Off-diagonal elements $`b_{ij}`$ represents the number of **bonding electron pairs** shared between atoms *i* and *j* (i.e., bonds)
-- Diagonal elements $`e_i`$ represents the number of **nonbonding valence electrons** on atom *i* (i.e., lone-pair electrons)
+- Off-diagonal elements *b<sub>ij</sub>* represents the number of **bonding electron pairs** shared between atoms *i* and *j* (i.e., bonds)
+- Diagonal elements *e<sub>i</sub>* represents the number of **nonbonding valence electrons** on atom *i* (i.e., lone-pair electrons)
 
 This structure makes the BE matrix closely analogous to a Lewis structure—but written in linear algebra form.
 
@@ -65,7 +65,9 @@ Each covalent bond contributes **one electron pair**:
 
 These electrons are split symmetrically:
 
-$`b_{ij} = b_{ji}`$ 
+```math
+b_{ij} = b_{ji}
+```
 
 **Step 3: Assign Nonbonding Electrons**
 
@@ -134,7 +136,7 @@ The reaction matrix **A** captures the essence of what changes during the reacti
 - Diagonal changes in **A** indicate electron redistribution
 - **A** must sum to zero (electron conservation: ∑<sub>i,j</sub> a<sub>ij</sub> = 0)
 
-For most elementary reactions, $|a<sub>ij</sub>| ≤ 2$, since changing by two electrons represents a significant chemical process (like forming/breaking a double bond).
+For most elementary reactions, |a<sub>ij</sub>| ≤ 2, since changing by two electrons represents a significant chemical process (like forming/breaking a double bond).
 
 Let consider the following reaction as an example for better understanding (each atom in the reaction was numbered):
 
