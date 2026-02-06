@@ -41,7 +41,7 @@ $$
 where:
 
 - Off-diagonal elements $\(b_{ij}\)$ represents the number of **bonding electron pairs** shared between atoms *i* and *j* (i.e., bonds)
-- Diagonal elements $\e_i$ represents the number of **nonbonding valence electrons** on atom *i* (i.e., lone-pair electrons)
+- Diagonal elements $\(e_i\)$ represents the number of **nonbonding valence electrons** on atom *i* (i.e., lone-pair electrons)
 
 This structure makes the BE matrix closely analogous to a Lewis structure—but written in linear algebra form.
 
