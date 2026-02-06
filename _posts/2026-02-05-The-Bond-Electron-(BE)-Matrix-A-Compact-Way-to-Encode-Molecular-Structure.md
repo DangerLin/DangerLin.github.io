@@ -28,7 +28,7 @@ For a molecule with *N* atoms, the BE matrix is an *N × N* matrix:
 
 
 $$
-\B =
+B =
 \begin{bmatrix}
 e_1 & b_{12} & \cdots & b_{1N} \\\\
 b_{21} & e_2 & \cdots & b_{2N} \\\\
@@ -49,27 +49,6 @@ b_{N1} & b_{N2} & \cdots & eN
 \end{bmatrix}
 $$
 
-
-B = 
-$$
-\begin{bmatrix}
-e_1 & b_{12} & \cdots & b_{1N} \\
-b_{21} & e_2 & \cdots & b_{2N} \\
-\vdots & \vdots & \ddots & \vdots \\
-b_{N1} & b_{N2} & \cdots & eN
-\end{bmatrix}
-$$
-
-B = 
-
-$$
-\begin{bmatrix}
-e_1 & b_{12} & \cdots & b_{1N} \\
-b_{21} & e_2 & \cdots & b_{2N} \\
-\vdots & \vdots & \ddots & \vdots \\
-b_{N1} & b_{N2} & \cdots & eN
-\end{bmatrix}
-$$
 
 where:
 
