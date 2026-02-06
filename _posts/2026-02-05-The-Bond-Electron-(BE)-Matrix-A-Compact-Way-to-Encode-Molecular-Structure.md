@@ -3,7 +3,7 @@ title: The Bond-Electron (BE) Matrix&#58; A Compact Way to Encode Molecular Stru
 description: Struggling with determining the major product of a ring-closing reaction? Wanna know if the cyclization reaction you design for your project is feasible? You may want to learn Baldwin's rules.
 date: 2026-02-05 17:00:00 -0500
 author: Danger
-categories: [Machine learning, molecular representation],[Organic chemistry]
+categories: [Machine learning, molecular representation] [Organic chemistry]
 tags: [molecular representation]
 ---
 
