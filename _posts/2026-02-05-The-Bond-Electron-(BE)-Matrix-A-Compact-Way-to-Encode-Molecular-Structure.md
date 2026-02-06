@@ -26,7 +26,6 @@ A **bond-electron (BE) matrix** is a square matrix representation of a molecule 
 
 For a molecule with *N* atoms, the BE matrix is an *N × N* matrix:
 
-
 $$
 B =
 \begin{bmatrix}
@@ -36,7 +35,6 @@ b_{21} & e_2 & \cdots & b_{2N} \\
 b_{N1} & b_{N2} & \cdots & e_N 
 \end{bmatrix}
 $$
-
 
 where:
 
@@ -65,9 +63,9 @@ Each covalent bond contributes **one electron pair**:
 
 These electrons are split symmetrically:
 
-```math
+$$
 b_{ij} = b_{ji}
-```
+$$
 
 **Step 3: Assign Nonbonding Electrons**
 
@@ -114,7 +112,6 @@ B_{ethylene} =
 \end{bmatrix}
 $$
 
-
 As you may already notice, a key insight is that ***The sum of any row (or column) equals the total number of valence electrons belonging to that atom***.
 
 ## Technical Deep Dive: The Reaction Matrix
@@ -136,13 +133,19 @@ The reaction matrix **A** captures the essence of what changes during the reacti
 - Diagonal changes in **A** indicate electron redistribution
 - **A** must sum to zero (electron conservation: ∑<sub>i,j</sub> a<sub>ij</sub> = 0)
 
-For most elementary reactions, |a<sub>ij</sub>| ≤ 2, since changing by two electrons represents a significant chemical process (like forming/breaking a double bond).
+For most elementary reactions, 
 
-Let consider the following reaction as an example for better understanding (each atom in the reaction was numbered):
+$$
+|a<sub>ij</sub>| ≤ 2
+$$
+
+since changing by two electrons represents a significant chemical process (like forming/breaking a double bond).
+
+Let's consider the following reaction as an example for better understanding (each atom in the reaction was numbered):
 
 ![**Scheme 1**. Example reaction](/assets/img/BE_matrix/Rxn.png)
 
-So we have the reactant BE matrix **R** as (order same as the number in reaction scheme):
+So we have the reactant BE matrix **R** as (order same as the number in the reaction scheme):
 
 $$
 R =
@@ -201,7 +204,7 @@ $$
 
 This indicates the bond between C<sup>4</sup> and O<sup>7</sup>, and the bond between N<sup>9</sup> and H<sup>8</sup> were broken, while a bond between O<sup>7</sup> and H<sup>8</sup>, and a bond between C<sup>4</sup> and N<sup>9</sup>, were built. 
 
-A better illustration is showed below:
+A better illustration is shown below:
 
 ![**Scheme 2**. Reaction matrix](/assets/img/BE_matrix/rxn_matrix.png)
 
@@ -211,11 +214,11 @@ BE matrices solve several critical problems in computational chemistry:
 
 1. **Mass Conservation**: By explicitly tracking all electrons and atoms, BE matrices prevent the computational "hallucinations" that plague many AI models—where products contain more or fewer atoms than reactants.
 2. **Chemical Interpretability**: Unlike black-box representations, BE matrices map directly to how chemists think about reactions through arrow-pushing mechanisms. In other words, every element of a BE matrix has a clear chemical meaning.
-3. **Automated Reaction Discovery**: Historically, BE matrices were used to track **electron flow during reactions**, identify bond breaking/forming events, and encode reaction mechanisms in a rule-based way. Since BE matrices are numerical, fixed-size, and interpretable—making them useful as reaction descriptors, as intermediate representations in ML workflows, and teaching tools bridging symbolic and numerical chemistry.  Computers can systematically generate plausible reaction pathways by exploring valid transformations of BE matrices.
+3. **Automated Reaction Discovery**: Historically, BE matrices were used to track **electron flow during reactions**, identify bond breaking/forming events, and encode reaction mechanisms in a rule-based way. Since BE matrices are numerical, fixed-size, and interpretable, making them useful as reaction descriptors, as intermediate representations in ML workflows, and teaching tools bridging symbolic and numerical chemistry.  Computers can systematically generate plausible reaction pathways by exploring valid transformations of BE matrices.
 
-Despite its elegance, the BE matrix is not a universal solution. For example, there is no direct encoding of 3D geometry in BE matrix, while current implementations struggle with transition metal catalysis and coordination chemistry. For resonance structures, it require multiple matrices for representation. Moreover, for aromaticity and delocalization, the BE matrics are approximated. Representing delocalized electrons (like benzene's π-electrons) requires careful handling to avoid electron overcounting in polycyclic systems. Finally, atom ordering in BE matrix is not inherently invariant.
+Despite its elegance, the BE matrix is not a universal solution. For example, there is no direct encoding of 3D geometry in BE matrix, while current implementations struggle with transition metal catalysis and coordination chemistry. For resonance structures, it requires multiple matrices for representation. Moreover, for aromaticity and delocalization, the BE matrices are approximated. Representing delocalized electrons (like benzene's π-electrons) requires careful handling to avoid electron overcounting in polycyclic systems. Finally, atom ordering in BE matrix is not inherently invariant.
 
-While less common than fingerprints or graph neural networks today, BE matrices remain conceptually important. Many modern representations implicitly rediscover ideas the BE matrix made explicit decades ago:
+While less common than fingerprints or graph neural networks today, BE matrices remain conceptually important. Many modern representations implicitly rediscover ideas that the BE matrix made explicit decades ago:
 
 - Conservation of electrons
 - Valence-based constraints
